@@ -34,3 +34,5 @@ while True:
         p(position,num)
     else:
         exit(0)
+
+#Code by Shrikant
