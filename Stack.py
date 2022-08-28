@@ -21,7 +21,7 @@ def display():
         print("Current stack elements are :\n",stack[::-1])
 
 while True:
-    print("1. Push\n2. Pop\n3. Display\n4. Exit")
+    print("1. Push\n2. Pop\n3. Display\n4. Exit\n")
     choice = int(input("Enter a choice\n"))
     if(choice==1):
         num = int(input("Enter a number to push\n"))
