@@ -18,8 +18,7 @@ def display():
     if(len(stack) == 0):
         print("Stack is empty\n")
     else:
-        print("Current stack elements are :\n")
-        print(stack[::-1])
+        print("Current stack elements are :\n",stack[::-1])
 
 while True:
     print("1. Push\n2. Pop\n3. Display\n4. Exit")
